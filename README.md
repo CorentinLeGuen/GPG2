@@ -1,6 +1,12 @@
 Utilisation de GnuGPG
 ===
 
+# Introduction
+
+Ma clé publique se trouve dans le fichier CorentinKey.asc
+
+L'empreinte de ma clé est : 1C83 4D5C 4B5B 3687 E09C  8E9D C641 E0A6 B892 7795
+
 # Création d'une clé
 
 ```sh
