@@ -3,13 +3,30 @@ Utilisation de GnuGPG
 
 ![Alice&Bob](https://aliceandbobcurate.files.wordpress.com/2012/02/ask.jpg)
 
+# Simple représentation
+
+Simple schéma de représentation d'un échange de message chiffré entre deux personnes.
+
+![imgs/schéma_chiffrement.png](imgs/schéma_chiffrement.png)
+
+# Signature
+
+Il est possible de signer un message chiffré avec sa propre clé publique pour authentifier le message et ainsi prouver son authenticité. La clé publique utilisée doit néanmoins être connue par le destinataire du message chiffré signé pour avoir une utilité.
+
 # Création d'une clé
 
 ```sh
 gpg2 --full-gen-key
 ```
+Il est possible de choisir les algorithmes de chiffrement pour les deux clés:
 
-Puis choisir une bi-clé DSA (D) pour la signature et une bi-clé ElGamal pour le chiffrement.
+1) RSA et RSA (par défaut)
+2) DSA et Elgamal
+3) DSA (signature seule)
+4) RSA (signature seule)
+
+Je recommande de choisir entre (1) et (2).
+
 Choisir au minimum une taille de clé de 3072 pour une recommandation d'au delà 2030.
 
 Les clés sont stockées sous ~/.gnupg. Pour visualiser les clés enregistrées, il faut faire:
