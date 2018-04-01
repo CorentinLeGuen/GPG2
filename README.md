@@ -161,4 +161,4 @@ Si le document est signé, il indiquera (si on connait la signature, après avoi
 
 # Ma clé publique
 
-Ma clé publique est disponible à l'emplacement [CorentinLeGuen.asc](CorentinLeGUen.asc), vous pouvez m'envoyer un email chiffré à leguen.corentin@mail.com.
+Ma clé publique est disponible à l'emplacement [CorentinLeGuen.asc](CorentinLeGuen.asc), vous pouvez m'envoyer un email chiffré à leguen.corentin@mail.com.
