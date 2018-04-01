@@ -13,6 +13,14 @@ Simple schéma de représentation d'un échange de message chiffré entre deux p
 
 Il est possible de signer un message chiffré avec sa propre clé publique pour authentifier le message et ainsi prouver son authenticité. La clé publique utilisée doit néanmoins être connue par le destinataire du message chiffré signé pour avoir une utilité.
 
+# Installation de gpg2
+
+Commande pour installer gpg2 sous Linux :
+
+```sh
+sudo apt install gnupg2
+```
+
 # Création d'une clé
 
 ```sh
@@ -153,4 +161,4 @@ Si le document est signé, il indiquera (si on connait la signature, après avoi
 
 # Ma clé publique
 
-Ma clé publique est disponible à l'emplacement [Corentin.asc](Corentin.asc), vous pouvez m'envoyer un email chiffré à leguen.corentin@mail.com.
+Ma clé publique est disponible à l'emplacement [CorentinLeGuen.asc](CorentinLeGUen.asc), vous pouvez m'envoyer un email chiffré à leguen.corentin@mail.com.
