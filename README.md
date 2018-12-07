@@ -158,7 +158,3 @@ gpg2 [document_chiffre]
 ```
 
 Si le document est signé, il indiquera (si on connait la signature, après avoir importé la clé publique de la source) qui est le signataire et fournira un message à déchiffrer. Il faudra retapper la même commande pour déchiffrer le message.
-
-# Ma clé publique
-
-Ma clé publique est disponible à l'emplacement [CorentinLeGuen.asc](CorentinLeGuen.asc), vous pouvez m'envoyer un email chiffré à leguen.corentin@mail.com.
